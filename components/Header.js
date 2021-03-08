@@ -12,6 +12,8 @@ export default function Header() {
       justify="flex-end"
       align="center"
       boxShadow="2xl"
+      flexWrap="wrap"
+      display={{base: "none", sm: "flex"}}
     >
       <Link href="/aboutme">
         <a>
@@ -21,6 +23,7 @@ export default function Header() {
               color: "#ffffff",
               textDecoration: "underline"
             }}
+            fontSize={{base: "0.5 rem",sm: "0.5rem", md: "1rem"}}
           >
             About me
           </Text>
@@ -34,6 +37,7 @@ export default function Header() {
               color: "#ffffff",
               textDecoration: "underline"
             }}
+            fontSize={{base: "0.5 rem",sm: "0.5rem", md: "1rem"}}
           >
             Time in Japan
           </Text>
@@ -47,6 +51,7 @@ export default function Header() {
               color: "#ffffff",
               textDecoration: "underline"
             }}
+            fontSize={{base: "0.5 rem",sm: "0.5rem", md: "1rem"}}
           >
             Contact me
           </Text>
@@ -60,6 +65,7 @@ export default function Header() {
               color: "#ffffff",
               textDecoration: "underline"
             }}
+            fontSize={{base: "0.5 rem",sm: "0.5rem", md: "1rem"}}
           >
             My projects
           </Text>

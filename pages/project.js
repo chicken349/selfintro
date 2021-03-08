@@ -10,12 +10,14 @@ export default function Project() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          w="50vw"
+          w={{base: "100vw",sm: "100vw",md: "50vw"}}
           maxW="1024px"
           align="center"
           justify="center"
           direction="column"
           background="white"
+          padding="10px"
+          boxShadow="dark-lg"
           margin="2.5rem"
           padding="2.5rem"
           boxShadow="dark-lg"

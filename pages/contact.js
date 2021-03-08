@@ -58,7 +58,7 @@ export default function Contact() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          w="50vw"
+          w={{base: "100vw",sm: "100vw",md: "50vw"}}
           maxW="1024px"
           align="center"
           justify="center"
