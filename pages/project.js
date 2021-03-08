@@ -19,6 +19,9 @@ export default function Project() {
           padding="2.5rem"
           boxShadow="dark-lg"
         >
+          <Text fontSize="6xl" align="center" justify="center">
+            My projects
+          </Text>
           <Image maxW="auto" maxH="15rem" src="https://miro.medium.com/max/2000/1*KMsAE8WmWsPJtxkRaov4Ow.gif" alt="Game of Life" />
           <Flex
             align="center"

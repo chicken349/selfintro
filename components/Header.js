@@ -11,6 +11,7 @@ export default function Header() {
       backgroundColor="#d3d3d3"
       justify="flex-end"
       align="center"
+      boxShadow="2xl"
     >
       <Link href="/aboutme">
         <a>
