@@ -10,7 +10,8 @@ export default function AboutMe() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          minW="70vw"
+          w="50vw"
+          maxW="1024px"
           align="center"
           justify="center"
           direction="column"
@@ -21,7 +22,7 @@ export default function AboutMe() {
           padding="2.5rem"
           boxShadow="dark-lg"
         >
-          <Text fontSize="5xl" align="center" justify="center">
+          <Text fontSize={{sm: "3xl", md: "5xl"}} align="center" justify="center">
             Time in Japan
           </Text>
           <Flex align="center" justify="center" direction="column" marginBottom="3rem" marginTop="1rem">
@@ -33,7 +34,7 @@ export default function AboutMe() {
               alt="zao"
               boxShadow="2xl"
             />
-            <Text fontSize="3xl" align="center" justify="center">
+            <Text fontSize={{sm: "2xl", md: "3xl"}} align="center" justify="center">
               Zao in Yamakata
             </Text>
           </Flex>
@@ -46,7 +47,7 @@ export default function AboutMe() {
               alt="cycling"
               boxShadow="2xl"
             />
-            <Text fontSize="3xl" align="center" justify="center">
+            <Text fontSize={{sm: "2xl", md: "3xl"}} align="center" justify="center">
               Cycling in ShimaNami Kaido
             </Text>
           </Flex>
@@ -59,7 +60,7 @@ export default function AboutMe() {
               alt="yufuin"
               boxShadow="2xl"
             />
-            <Text fontSize="3xl" align="center" justify="center">
+            <Text fontSize={{sm: "2xl", md: "3xl"}}s align="center" justify="center">
               Winter morning in Yufuin, Oita
             </Text>
           </Flex>

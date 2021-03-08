@@ -58,7 +58,8 @@ export default function Contact() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          minW="70vw"
+          w="50vw"
+          maxW="1024px"
           align="center"
           justify="center"
           direction="column"
@@ -71,28 +72,30 @@ export default function Contact() {
         >
           <Image src="https://tecky.io/static/fffac7fa9bb167e4758e84672725e9b0/a8344/logo_title.png" alt="Tecky" />
           <Flex
-            h="30vh"
+            h="auto"
             w="40vw"
             align="center"
             justify="center"
             direction="column"
+            marginTop="30px"
+            marginBottom="30px"
           >
             <Flex
               align="center"
               justify="center"
               direction="column"
             >
-              <Text fontSize="3xl" align="center" justify="center">
+              <Text fontSize={{sm: "3xl", md: "5xl"}} align="center" justify="center">
                 Office Address:
             </Text>
-              <Text fontSize="1xl" align="center" justify="center">
+              <Text fontSize={{sm: "1xl", md: "2xl"}} align="center" justify="center">
                 Suite C-E, 11th Floor, Golden Sun Centre
                 59-67 Bonham Strand West, Sheung Wan
             </Text>
-              <Text fontSize="1xl" align="center" justify="center">
+              <Text fontSize={{sm: "1xl", md: "2xl"}} align="center" justify="center">
                 Office Tel: 2123 4567
               </Text>
-              <Text fontSize="1xl" align="center" justify="center">
+              <Text fontSize={{sm: "1xl", md: "2xl"}} align="center" justify="center">
                 Mobile: 9123 4567
               </Text>
             </Flex>
@@ -126,11 +129,11 @@ export default function Contact() {
               >
                 <div>
                   <Image h="50px" w="auto" src="https://tecky.io/static/fffac7fa9bb167e4758e84672725e9b0/a8344/logo_title.png" alt="office" />
-                  <h2>
+                  <Text fontSize={{sm: "1xl", md: "2xl"}}>
                     Office: 2123 4567
                     <br></br>
                     Mobile: 9999 9999
-                  </h2>
+                  </Text>
                 </div>
               </InfoWindow>
             ) : null}

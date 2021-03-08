@@ -10,7 +10,8 @@ export default function AboutMe() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          minW="70vw"
+          w="50vw"
+          maxW="1024px"
           align="center"
           justify="center"
           direction="column"
@@ -38,10 +39,10 @@ export default function AboutMe() {
               justify="center"
               direction="column"
             >
-              <Text fontSize="3xl" align="center" justify="center">
+              <Text fontSize={{sm: "3xl", md: "5xl"}} align="center" justify="center">
                 About Kevin
               </Text>
-              <Text fontSize="1xl" align="center" justify="center">
+              <Text fontSize={{sm: "1xl", md: "2xl"}} align="center" justify="center">
                 I have worked in the accounting field over these few years. As I realized that a large proportion of tasks in accounting can, and will be taken over by AI, I decided to dive inside the computer field. I am aiming at becoming an app developer.
               </Text>
             </Flex>

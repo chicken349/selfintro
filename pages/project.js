@@ -10,7 +10,8 @@ export default function Project() {
       <Flex align="center" justify="center" direction="column" background="#d3d3d3">
         <Flex
           minH="100vh"
-          minW="70vw"
+          w="50vw"
+          maxW="1024px"
           align="center"
           justify="center"
           direction="column"
@@ -19,7 +20,7 @@ export default function Project() {
           padding="2.5rem"
           boxShadow="dark-lg"
         >
-          <Text fontSize="6xl" align="center" justify="center">
+          <Text fontSize={{sm: "3xl", md: "6xl"}} align="center" justify="center">
             My projects
           </Text>
           <Image maxW="auto" maxH="15rem" src="https://miro.medium.com/max/2000/1*KMsAE8WmWsPJtxkRaov4Ow.gif" alt="Game of Life" />
@@ -28,7 +29,7 @@ export default function Project() {
             justify="center"
             direction="column"
           >
-            <Text fontSize="3xl" align="center" justify="center"
+            <Text fontSize={{sm: "2xl" , md: "3xl"}} align="center" justify="center"
               _hover={{
                 color: "#0070f3",
                 textDecor: "underline"
